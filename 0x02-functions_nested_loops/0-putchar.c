@@ -6,12 +6,17 @@
  * Return: 0 (Success)
  */
 
-
 int main(void)
 {
-char *_putchar;
+  char s[9] = "_putchar";
+  int i = 0;
 
-for (_putchar = "_putchar\n"; *_putchar != '\0'; ++_putchar)
-_putchar(*_putchar);
+  while (i < 8)
+    {
+      _putchar(s[i]);
+      i++;
+    }
+_putchar'\n');
+
 return (0);
 }
