@@ -69,7 +69,8 @@ return (0);
 digits++;
 j--;
 i--;
-}										if (digits == size_r)
+}
+if (digits == size_r)
 return (0);
 *(r + digits) = '\0';
 rev_string(r);
